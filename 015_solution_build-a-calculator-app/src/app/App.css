@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+  color: white;
+  /* Change text color to white for dark mode */
+}
+
+body {
+  background-color: #121212;
+  /* Set dark background color */
+}
+
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #333;
+  /* Set dark background for inputs and buttons */
+  color: white;
+  /* Ensure text is readable on dark background */
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  /* Darker border for input */
+}
+
+button {
+  border: 1px solid gray;
+  background: #444;
+  /* Darker background for buttons */
+  margin-right: 5px;
+}
+
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
